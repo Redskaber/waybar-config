@@ -18,7 +18,7 @@
 	"format-icons": [
 		"󰈸"
 	],
-	"on-click-right": "$HOME/.config/hypr/scripts/WaybarScripts.sh --nvtop"
+	"on-click-right": "$HOME/.config/hypr/sys/scripts/WaybarScripts.sh --nvtop"
 },
 
 "backlight#vertical": {
@@ -33,8 +33,8 @@
 	"on-click-middle": "",
 	"on-click-right": "",
 	"on-update": "",
-	"on-scroll-up": "$HOME/.config/hypr/scripts/Brightness.sh --inc",
-	"on-scroll-down": "$HOME/.config/hypr/scripts/Brightness.sh --dec",
+	"on-scroll-up": "$HOME/.config/hypr/sys/scripts/Brightness.sh --inc",
+	"on-scroll-down": "$HOME/.config/hypr/sys/scripts/Brightness.sh --dec",
 	"smooth-scrolling-threshold": 1,
 	"tooltip-format": "backlight {percent}%",
 },
@@ -67,7 +67,7 @@
 	"format-alt-click": "click",
 	"tooltip": true,
 	"tooltip-format": "{used:0.1f}GB/{total:0.1f}G",
-	"on-click-right": "$HOME/.config/hypr/scripts/WaybarScripts.sh --btop",
+	"on-click-right": "$HOME/.config/hypr/sys/scripts/WaybarScripts.sh --btop",
 },
 
 "pulseaudio#vertical": {
@@ -90,10 +90,10 @@
 		],
 	},
 	"scroll-step": 5.0,
-	"on-click": "$HOME/.config/hypr/scripts/Volume.sh --toggle",
+	"on-click": "$HOME/.config/hypr/sys/scripts/Volume.sh --toggle",
 	"on-click-right": "pavucontrol -t 3",
-	"on-scroll-up": "$HOME/.config/hypr/scripts/Volume.sh --inc",
-	"on-scroll-down": "$HOME/.config/hypr/scripts/Volume.sh --dec",
+	"on-scroll-up": "$HOME/.config/hypr/sys/scripts/Volume.sh --inc",
+	"on-scroll-down": "$HOME/.config/hypr/sys/scripts/Volume.sh --dec",
 	"tooltip-format": "{icon} {desc} | {volume}%",
 	"smooth-scrolling-threshold": 1,
 },
@@ -103,9 +103,9 @@
 	"format-source": "󰍬",
 	"format-source-muted": "󰍭",
 	"on-click-right": "pavucontrol",
-	"on-click": "$HOME/.config/hypr/scripts/Volume.sh --toggle-mic",
-	"on-scroll-up": "$HOME/.config/hypr/scripts/Volume.sh --mic-inc",
-	"on-scroll-down": "$HOME/.config/hypr/scripts/Volume.sh --mic-dec",
+	"on-click": "$HOME/.config/hypr/sys/scripts/Volume.sh --toggle-mic",
+	"on-scroll-up": "$HOME/.config/hypr/sys/scripts/Volume.sh --mic-inc",
+	"on-scroll-down": "$HOME/.config/hypr/sys/scripts/Volume.sh --mic-dec",
 	"max-volume": 100,
 	"tooltip": true,
 	"tooltip-format": "{source_desc} | {source_volume}%",
@@ -113,8 +113,8 @@
 
 "custom/power_vertical": {
 	"format": "⏻",
-	"on-click": "$HOME/.config/hypr/scripts/Wlogout.sh",
-	"on-click-right": "$HOME/.config/hypr/scripts/ChangeBlur.sh",
+	"on-click": "$HOME/.config/hypr/sys/scripts/Wlogout.sh",
+	"on-click-right": "$HOME/.config/hypr/sys/scripts/ChangeBlur.sh",
 	"tooltip": true,
 	"tooltip-format": "Left Click: Logout Menu\nRight Click: Change Blur",
 },
