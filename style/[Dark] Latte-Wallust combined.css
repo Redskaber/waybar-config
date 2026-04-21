@@ -1,15 +1,15 @@
 /* Catppuccin Latte - Wallust */
 /* Original Design by DC user mannatsingh */
 
-@define-color white      	#F2F2F2;
-@define-color black      	#000000;
-@define-color text       	#FFFFFF;
-@define-color lightgray  	#686868;
-@define-color darkgray   	#353535;
+@define-color white       #F2F2F2;
+@define-color black       #000000;
+@define-color text        #FFFFFF;
+@define-color lightgray   #686868;
+@define-color darkgray    #353535;
 
-@define-color transparent	rgba(1, 1, 1, 0.5);
-@define-color teal-trans	rgba(1, 117, 84, 0.5);
-@define-color cyan			rgba(53, 140, 169, 1);
+@define-color transparent rgba(1, 1, 1, 0.5);
+@define-color teal-trans  rgba(1, 117, 84, 0.5);
+@define-color cyan        rgba(53, 140, 169, 1);
 
 @define-color background-module     @transparent;
 @define-color border-color          @color12;
